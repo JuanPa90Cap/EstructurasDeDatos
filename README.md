@@ -108,26 +108,6 @@ Front -> [1] -> [2] -> [3] -> Rear
 | Desencolar   | O(1)        |
 | Acceso       | O(n)        |
 
-### 2. Cola Circular
-
-- **Definición**: Variante de la cola donde el último elemento está conectado al primero, formando un círculo.
-- **Uso Común**: Memoria de buffer circular, juegos.
-
-#### Diagrama de Cola Circular:
-
-```
-Front -> [a] -> [b] -> [c] -> (retorna a Front)
-```
-
-#### Características:
-
-| Operación    | Complejidad |
-|--------------|-------------|
-| Encolar      | O(1)        |
-| Desencolar   | O(1)        |
-| Acceso       | O(n)        |
-
----
 
 ## Pilas
 
